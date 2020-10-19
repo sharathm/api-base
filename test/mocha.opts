@@ -1,0 +1,6 @@
+# Mocha options
+./test/**/*.test.js
+./server/components/**/test/*.test.js
+./server/services/**/test/*.test.js
+--recursive
+--require @babel/register
